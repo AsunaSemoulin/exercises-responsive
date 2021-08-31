@@ -1,0 +1,65 @@
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+    div h1 {
+        font-size: 15px;
+    }
+    div p {
+        font-size: 10px;
+    }
+    #small {
+        width: 100%;
+    }
+    #medium {
+        width: 100%;
+    }
+    #large {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    div h1 {
+        font-size: 30px;
+    }
+    div p {
+        font-size: 15px;
+    }
+    #small {
+        width: 66%;
+    }
+    #medium {
+        width: 34%;
+    }
+    #large {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    div h1 {
+        font-size: 40px;
+    }
+    div p {
+        font-size: 20px;
+    }
+    #small {
+        width: 33%;
+        display: inline-block;
+    }
+    #medium {
+        width: 33%;
+        display: inline-block;
+    }
+    #large {
+        width: 33%;
+        display: inline-block;
+    }
+}
